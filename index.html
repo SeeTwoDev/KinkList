@@ -235,7 +235,6 @@
                 return className;
             };
             var addCssRule = function(selector, rules){
-                //var sheet = document.styleSheets[0];
                 if("insertRule" in stylesheet) {
                     stylesheet.insertRule(selector + "{" + rules + "}", 0);
                 }
@@ -437,7 +436,6 @@
                             width: width,
                             height: height
                         });
-                        // $canvas.insertBefore($('#InputList'));
 
                         var context = canvas.getContext('2d');
                         context.fillStyle = '#FFFFFF';
@@ -858,7 +856,6 @@
                     e.stopPropagation();
                 });
 
-                //var stylesheet = document.styleSheets[0];
                 $('.legend .choice').each(function(){
                     var $choice = $(this);
                     var $parent = $choice.parent();
