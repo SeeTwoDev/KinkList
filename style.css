@@ -41,9 +41,9 @@ td {
     padding-right: 2px;
 }
 @-moz-document url-prefix() {
-  td {
-     padding: 3.3px;
-  }
+    td {
+        padding: 3.3px;
+    }
 }
 td + td {
     border-left-style: none;
@@ -293,27 +293,30 @@ td + td {
     background-color: rgba(0, 0, 0, 0.8);
     display: none;
 }
+
 #EditOverlay #Kinks {
     box-sizing: border-box;
     position: absolute;
     top: 10px;
     bottom: 50px;
-    width: 330px;
+    width: 50%;
     left: 50%;
-    margin-left: -165px;
+    margin-left: -25%;
     resize: none;
     padding: 10px;
     border-radius: 5px;
+    height: 94%;
     font-family: monospace, 'Courier new', Courier;
 }
+
 #EditOverlay #KinksOK {
     box-sizing: border-box;
     position: absolute;
     bottom: 10px;
-    width: 330px;
+    width: 50%;
     height: 30px;
     left: 50%;
-    margin-left: -165px;
+    margin-left: -25%;
     color: #FFF;
     text-transform: uppercase;
     background-color: #4980ae;
